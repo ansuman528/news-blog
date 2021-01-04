@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+body{
+     padding: 0;
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1609723868501-168843f2d29e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navbar section */
+
+ .nav{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+}
+
+.nav div.logo{
+    width: 180px;
+    height: 10px;
+    position: absolute;
+}
+
+.nav div.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.nav div.logo a:hover {
+    color: #c0c0c0;
+}
+
+.nav div.main_list{
+    width: 600px;
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul{
+    width:100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+}
+
+.nav div.main_list ul li{
+    width: 120px;
+    height: 65px;
+}
+.nav div.main_list ul li:hover{
+    border-bottom: 2px solid white;
+}
+.nav div.main_list ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+.nav div.main_list ul li a:hover{
+    color: #c0c0c0;
+}
+.head-news-container{
+    padding: 10px;
+}
+.head-news-col{
+    padding: 8px;
+}
+
+.head-news-card{
+    background-color: violet;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    position: relative;
+    padding: 0;
+}
+.head-news-card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.left-1{
+    background-image: url("https://static.toiimg.com/photo/80088962.cms");
+}
+.left-2{
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202101/Amit_Shah_Saurav_Ganguly_PTI28_1200x768.jpeg?uam3wzvcupOlOykQUXtSUXKBmkFHb2dV&size=770:433);
+}
+.right{
+    background-image: url(https://images.unsplash.com/photo-1583279904750-85325bf531b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.right:hover .head-news-art{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.head-news-art{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+/* Home section */
+.mid-news-card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    height: 100vh;
+    border-right: 5px solid white;
+}
+.mid-news-card:hover{
+    opacity: 0.5;
+}
+.mid-news-card-1{
+    background-image: url(https://images.unsplash.com/photo-1609717867549-39a7707d66dc?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.mid-news-card-2{
+    background-image: url(https://images.unsplash.com/photo-1609763642778-a5d10b2804e3?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.mid-news-card-3{
+    background-image: url(https://images.unsplash.com/photo-1609713617753-c6b94088ed7b?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.mid-news-card-4{
+    background-image: url(https://images.unsplash.com/photo-1609688538611-b0acf65795c9?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    height: 50vh;
+    opacity: 0.7;
+    border-right: 5px solid hotpink;
+    border-bottom: 5px solid greenyellow;
+}
+.old-news-card:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 1;
+}
+.old-news-card-1{
+    background-image: url(https://images.unsplash.com/photo-1609749285584-d624310d0347?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card-2{
+    background-image: url(https://images.unsplash.com/photo-1609742194181-fef008b5000b?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card-3{
+    background-image: url(https://images.unsplash.com/photo-1609742194181-fef008b5000b?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3MHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card-4{
+    background-image: url(https://images.unsplash.com/photo-1609633771587-b79454a5152b?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card-5{
+    background-image: url(https://images.unsplash.com/photo-1601758004584-903c2a9a1abc?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3Nnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card-6{
+    background-image: url(https://images.unsplash.com/photo-1609769621098-e4879adc4885?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3N3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card-7{
+    background-image: url(https://images.unsplash.com/photo-1609737944496-e87008845a61?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4NHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
+.old-news-card-8{
+    background-image: url(https://images.unsplash.com/photo-1609501676725-7186f017a4b7?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5M3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+}
