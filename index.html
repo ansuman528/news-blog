@@ -21,7 +21,7 @@
                 <div class="logo">
                     <a href="#"><i class="fas fa-rss"></i> NEWS</a>
                 </div>
-                <button type="button" class="btn btn-dark button-toggler">
+                <button type="button" onclick="responsive()" class="btn btn-dark button-toggler">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="main_list" id="mainListDiv">
@@ -150,5 +150,16 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+   </script>
+   <script>
+       function responsive(){
+           var top=document.getElementById('mainListDiv');
+           if(top.className==="main_list"){
+             top.className+="-responsive";
+           }
+           else{
+               top.className="main_list";
+           }
+       }
    </script>
 </html>    
