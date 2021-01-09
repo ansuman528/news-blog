@@ -16,7 +16,7 @@
     <body>
         <div class="loader" id="loader"></div>
         <section>
-        <nav class="nav">
+        <nav class="nav" id="navbar">
             <div class="container">
                 <div class="logo">
                     <a href="#"><i class="fas fa-rss"></i> NEWS</a>
@@ -139,4 +139,16 @@
         </section>
     </body>
    <script src="index.js"></script>
+   <script>
+       var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+   </script>
 </html>    
