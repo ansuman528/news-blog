@@ -222,4 +222,7 @@ margin-top: 13px;
 .mid-news-card .head-news-art{
     height: 300px;
 }
+.old-news-card:hover{
+    padding: 20px;
+}
 }
