@@ -177,7 +177,7 @@ body{
 }
 .old-news-card:hover{
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 1;
 }
 .old-news-card-1{
@@ -215,5 +215,11 @@ margin-top: 13px;
 }
 .main_list{
     display: none;
+}
+.old-news-card .head-news-art{
+    height: 200px;
+}
+.mid-news-card .head-news-art{
+    height: 300px;
 }
 }
